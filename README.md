@@ -51,4 +51,4 @@ You can easily modify the display patterns or add new states:
 
 ## Author
 
-[Jacek Kozłowski]
+Jacek Kozłowski
