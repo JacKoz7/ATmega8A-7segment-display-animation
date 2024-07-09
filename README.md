@@ -2,7 +2,9 @@
 
 ## Project Description
 
-This project showcases an interactive status display using an ATmega8A microcontroller. It features animated text on a 5-digit 7-segment display, toggling between "OPEN" and "CLOSED" states with smooth scrolling animations.
+This project showcases an interactive status display using an ATmega8A microcontroller. It features animated text on a 4-digit 7-segment display, toggling between "OPEN" and "CLOSED" states with smooth scrolling animations.
+
+![IMG_0333](https://github.com/JacKoz7/7-segment-display/assets/126762316/8a292c57-a935-4f3b-9d99-37b1e3c9ebb6)
 
 ## Features
 
@@ -15,8 +17,7 @@ This project showcases an interactive status display using an ATmega8A microcont
 ## Hardware
 
 - Microcontroller: ATmega8A
-- Display: 5-digit, 7-segment (common cathode)
-- Keypad: 4x3 matrix (not utilized in current version)
+- Display: 4-digit, 7-segment (common cathode)
 - Status toggle button: connected to PB0
 - Programmer: USBasp
 
@@ -31,8 +32,9 @@ The project is written in C and uses AVR-GCC for compilation. Key software featu
 ## Animations
 
 - "OPEN": Text scrolls one position to the left in an infinite loop (OPEN -> PEN  -> EN O -> N OP -> etc.)
-- "CLOSED": Displays the sequence CLOS -> LOSE -> OSED -> D CLO -> etc.
+- "CLOSED": Displays the sequence CLOS -> LOSE -> OSED -> etc.
 
+https://github.com/JacKoz7/7-segment-display/assets/126762316/d057253d-35fd-4350-9f73-168d1be03dd2
 
 ## Usage
 
